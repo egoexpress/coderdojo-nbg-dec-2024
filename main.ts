@@ -81,6 +81,187 @@ input.onPinTouchEvent(TouchPin.P0, input.buttonEventDown(), function () {
         # . # . #
         `)
 })
+input.onPinTouchEvent(TouchPin.P2, input.buttonEventDown(), function () {
+    for (let index = 0; index < 4; index++) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . . . #
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . . # #
+            . . . . #
+            . . . . #
+            . . . . #
+            . . . . #
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . # # .
+            . . . # .
+            . . . # .
+            . . . # #
+            . . . # .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . # # . .
+            . . # . .
+            . . # . .
+            . . # # #
+            . . # . #
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            # # . . .
+            . # . . .
+            . # . . .
+            . # # # .
+            . # . # .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            # . . . .
+            # . . . .
+            # . . . .
+            # # # . .
+            # . # . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            # # . . .
+            . # . . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            # . . . .
+            # . . . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            # . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            # # . . .
+            # . . . .
+            # . . . .
+            # . . . .
+            # . . . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . # # . .
+            . # . . .
+            . # . . .
+            # # . . .
+            . # . . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . # # .
+            . . # . .
+            . . # . .
+            # # # . .
+            # . # . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . # . .
+            . . # . .
+            . . # . .
+            # # # . .
+            # . # . .
+            `)
+        basic.pause(200)
+        for (let index = 0; index < 3; index++) {
+            basic.showLeds(`
+                . # # . .
+                . . # . .
+                . . # . .
+                # # # . .
+                # . # . .
+                `)
+            basic.pause(100)
+            basic.showLeds(`
+                . . # # .
+                . . # . .
+                . . # . .
+                # # # . .
+                # . # . .
+                `)
+            basic.pause(100)
+        }
+        basic.showLeds(`
+            . . . # #
+            . . . # .
+            . . . # .
+            . # # # .
+            . # . # .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . . . #
+            . . . . #
+            . . . . #
+            . . # # #
+            . . # . #
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . # #
+            . . . # .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . #
+            . . . . #
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+})
 let Tannenbaum = 0
 let Licht = 0
 led.plot(2, 0)
