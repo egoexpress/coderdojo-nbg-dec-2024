@@ -43,7 +43,7 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     }
 })
 input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
-    basic.showString("Noah")
+    basic.showString("NOAH UND PAPI ")
 })
 input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
     if (Tannenbaum) {
