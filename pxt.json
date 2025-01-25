@@ -1,9 +1,9 @@
 {
-    "name": "Noah",
+    "name": "Weihnachten",
     "description": "",
     "dependencies": {
         "core": "*",
-        "v1": "*"
+        "v3": "*"
     },
     "files": [
         "main.blocks",
